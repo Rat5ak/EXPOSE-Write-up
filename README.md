@@ -22,8 +22,6 @@ Initial Analysis
 
 The first step taken was to run a comprehensive Nmap scan:
 
-bash
-
 sudo nmap -sV -O -p- -A -sC 10.10.47.35
 
 This scan was intended to identify open ports, running services, the operating system, and other valuable information about the target machine.
